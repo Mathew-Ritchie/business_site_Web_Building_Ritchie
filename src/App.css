@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1f2937; /* This is the hex code for Tailwind's gray-800 */
+  z-index: -20; /* Place it behind the image and the content */
+}
+
+.about-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e5e7eb; /* Hex code for gray-200 */
+  z-index: -20; /* Places this color layer behind the image */
+}
+
+.global-accent-text {
+  color: #00cccc; /* Tailwind's blue-500 */
+}
+
+.bg-color-gray-800 {
+  background-color: #1f2937; /* Tailwind's gray-800 */
+}
