@@ -37,3 +37,15 @@ body {
 .bg-color-gray-800 {
   background-color: #1f2937; /* Tailwind's gray-800 */
 }
+
+.client-logos {
+  filter: grayscale(100%);
+  opacity: 0.8;
+  transition: filter 0.3s ease, opacity 0.3s ease;
+  width: 300px;
+}
+
+.client-logos:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
