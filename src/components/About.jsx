@@ -4,7 +4,10 @@ import "../App.css"; // You'll need to create this CSS file
 
 export default function About() {
   return (
-    <section className="about-section min-h-screen w-full relative overflow-hidden flex items-center justify-center">
+    <section
+      id="about-us"
+      className="about-section min-h-screen w-full relative overflow-hidden flex items-center justify-center"
+    >
       <div
         className="absolute inset-0 bg-no-repeat -z-10"
         style={{

@@ -4,7 +4,10 @@ import packagesImage from "../assets/packages.png"; // Ensure path is correct
 
 export default function Packages() {
   return (
-    <section className="relative min-h-screen w-full flex flex-col items-center justify-center  overflow-hidden">
+    <section
+      id="our-packages"
+      className="relative min-h-screen w-full flex flex-col items-center justify-center  overflow-hidden pt-20"
+    >
       {/* Background Image Layer */}
       <div
         className="absolute inset-0 bg-contain bg-no-repeat -z-10" // Use absolute inset-0 for positioning within the section

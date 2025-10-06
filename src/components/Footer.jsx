@@ -5,18 +5,18 @@ import speechBubble from "../assets/speech-bubble.png";
 
 export default function Footer() {
   return (
-    <div className="bg-gray-800/20 footer-container w-full h-screen relative overflow-hidden flex flex-col items-center justify-center">
+    <div
+      id="contact-us"
+      className="bg-gray-800/20 footer-container w-full h-screen relative overflow-hidden flex flex-col items-center justify-center"
+    >
       <div
-        className="bg-color-gray-800 absolute inset-0 bg-no-repeat -z-10"
+        className="bg-color-gray-800 absolute inset-0 -z-10 bg-no-repeat bg-left bg-fixed bg-top-20-percent"
         style={{
           backgroundImage: `url(${speechBubble})`,
-          backgroundPosition: "top left",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "45%",
-          backgroundAttachment: "fixed",
+          backgroundSize: "45%", // Keep size inline since it's a specific percentage
         }}
       ></div>
-      <div className=" p-10 rounded-2xl flex flex-col md:flex-row justify-center md:justify-around items-center md:items-start md:gap-5 lg:gap-15 text-white z-10">
+      <div className="w-full p-10 rounded-2xl flex flex-col md:flex-row justify-center md:justify-end items-center md:items-start md:gap-5 lg:gap-15 text-white z-10">
         <div className="tech-gray grid grid-cols-1  gap-4 flex-wrap pt-8 px-10 md:px-0 md:pt-0 text-white">
           {/* Phone Number */}
           <div className="flex items-center gap-3">

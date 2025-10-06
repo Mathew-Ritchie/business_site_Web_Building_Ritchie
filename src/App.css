@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -48,4 +53,8 @@ body {
 .client-logos:hover {
   filter: grayscale(0%);
   opacity: 1;
+}
+
+.bg-top-20-percent {
+  background-position: 20% left;
 }
