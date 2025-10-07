@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section
       id="about-us"
-      className="about-section min-h-screen w-full relative overflow-hidden flex items-center justify-center"
+      className="about-section min-h-screen w-full relative overflow-hidden flex items-center justify-center md:justify-end"
     >
       <div
         className="absolute inset-0 bg-no-repeat -z-10"
@@ -18,7 +18,7 @@ export default function About() {
           backgroundSize: "50%",
         }}
       ></div>
-      <div className="container mx-auto px-4 text-center text-black">
+      <div className="w-1/2 container  px-4 text-center md:text-start text-black">
         <h1 className="text-5xl md:text-6xl font-extrabold mb-6">About Us</h1>
         <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
           We are dedicated to excellence and innovation in our field.
