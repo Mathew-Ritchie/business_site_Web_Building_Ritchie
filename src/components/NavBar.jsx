@@ -40,7 +40,7 @@ export default function NavModalHeader() {
     <>
       {/* <div className="transparent-tech-grey w-screen h-10"></div> */}
       {/* Main header bar */}
-      <div className="bg-gray-900/70 flex items-center justify-between p-2 text-white shadow-lg w-full fixed  z-30">
+      <div className="bg-gray-900/70 flex items-center justify-end p-2 text-white shadow-lg w-full fixed  z-30">
         {/* Hamburger menu button for sm/md screens */}
         <button
           className="lg:hidden text-white hover:text-gray-400 focus:outline-none p-2 rounded-md transition duration-300"
@@ -64,7 +64,7 @@ export default function NavModalHeader() {
         </button>
 
         {/* Desktop Navigation for lg and up */}
-        <nav className="hidden lg:flex items-center space-x-4 text-xl pr-5">
+        <nav className="hidden lg:flex items-center space-x-2 text-xl pr-5">
           <a
             href="#about-us"
             className="p-2 rounded-md hover:bg-gray-700 transition duration-200 text-shadow-xs text-shadow-neutral-700"

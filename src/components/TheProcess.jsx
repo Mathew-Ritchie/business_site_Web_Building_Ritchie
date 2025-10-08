@@ -16,7 +16,9 @@ export default function TheProcess() {
       className="the-process-section bg-gray-800 min-h-screen w-full relative overflow-hidden flex items-center justify-center py-20"
     >
       <div className="container mx-auto px-4 text-center text-black">
-        <h1 className="text-5xl md:text-6xl font-extrabold mb-6 text-gray-100">Our Process</h1>
+        <h1 className="text-5xl md:text-6xl font-extrabold mb-6 text-gray-100">
+          Our Web-design Process
+        </h1>
         <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto text-gray-100">
           Our process is designed to ensure that we deliver high-quality, tailored web solutions
           that meet your unique needs and goals.

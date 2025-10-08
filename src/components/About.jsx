@@ -18,10 +18,16 @@ export default function About() {
           backgroundSize: "50%",
         }}
       ></div>
-      <div className="w-1/2 container  px-4 text-center md:text-start text-black">
+      <div className=" w-full md:w-1/2 container px-10 text-center md:text-start text-black">
         <h1 className="text-5xl md:text-6xl font-extrabold mb-6">About Us</h1>
         <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
-          We are dedicated to excellence and innovation in our field.
+          Pefectly Pixelled is a web design and development company dedicated to creating stunning,
+          user-friendly websites that help businesses establish a strong online presence.
+        </p>
+        <p className="text-md md:text-xl mb-8 max-w-2xl mx-auto">
+          Our aim is to provide high-quality, customized web solutions that not only look great but
+          also perform seamlessly across all devices. We believe that a well-designed website is
+          crucial for any business looking to thrive in today's digital landscape.
         </p>
       </div>
     </section>

@@ -36,7 +36,7 @@ export default function OurServices() {
       <div className="mb-12">
         {" "}
         {/* Added margin-bottom to ensure content isn't hidden */}
-        <div className="container mx-auto px-4 grid grid-cols-[350px] md:grid-cols-3 gap-8 text-center justify-items-center">
+        <div className="container mx-auto px-5 grid grid-cols-1 md:grid-cols-3 gap-8 text-center justify-items-center">
           {/* Package 1 */}
           <div className="bg-white/90 p-6 px-8 rounded-lg shadow-md">
             <h3 className="text-lg font-bold">Website development</h3>
@@ -72,7 +72,7 @@ export default function OurServices() {
             </ul>
           </div>
 
-          <div className="bg-white/90 p-6 px-8  rounded-lg shadow-md w-[350px]">
+          <div className="bg-white/90 p-6 px-8  rounded-lg shadow-md ">
             <h3 className="text-lg font-bold">Search Engine Optimisation (SEO)</h3>
             <p>
               Get your business noticed online with SEO that drives traffic, generates leads, and
@@ -105,7 +105,7 @@ export default function OurServices() {
             </ul>
             <p>Let us help your business reach the right audience with SEO that works.</p>
           </div>
-          <div className="bg-white/90 p-6 px-8  rounded-lg shadow-md w-[350px]">
+          <div className="bg-white/90 p-6 px-8  rounded-lg shadow-md">
             <h3 className="text-lg font-bold">Hosting</h3>
             <p>
               Keep your website online, fast, and secure with our professional hosting services.

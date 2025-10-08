@@ -7,17 +7,18 @@ export default function Footer() {
   return (
     <div
       id="contact-us"
-      className="bg-gray-800/20 footer-container w-full h-screen relative overflow-hidden flex flex-col items-center justify-center"
+      className="bg-gray-800 footer-container w-full h-screen relative overflow-hidden flex flex-col items-center justify-center"
     >
-      <div
+      {/* <div
         className="bg-color-gray-800 absolute inset-0 -z-10 bg-no-repeat bg-left bg-fixed bg-top-20-percent"
         style={{
           backgroundImage: `url(${speechBubble})`,
           backgroundSize: "45%", // Keep size inline since it's a specific percentage
         }}
-      ></div>
-      <div className="w-full p-10 rounded-2xl flex flex-col md:flex-row justify-center md:justify-end items-center md:items-start md:gap-5 lg:gap-15 text-white z-10">
-        <div className="tech-gray grid grid-cols-1  gap-4 flex-wrap pt-8 px-10 md:px-0 md:pt-0 text-white">
+      ></div> */}
+      <div className="w-full p-10 rounded-2xl flex flex-col md:flex-row justify-center md:justify-center items-center  md:gap-5 lg:gap-15 text-white z-10">
+        <img src={speechBubble} className="w-90" />
+        <div className="flex flex-col items-start justify-center md:items-start text-left gap-3 md:gap-5 mr-10">
           {/* Phone Number */}
           <div className="flex items-center gap-3">
             <svg
@@ -64,9 +65,9 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="md:flex flex-col items-start hidden">
+        {/* <div className="md:flex flex-col items-start hidden">
           <p className="global-accent-text font-bold">Quick Links</p>
-        </div>
+        </div> */}
       </div>
       <div className="flex flex-col justify-center items-center gap-5 pt-5 global-accent-text z-10">
         <p className="text-xl">Why not follow us?</p>

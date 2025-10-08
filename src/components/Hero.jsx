@@ -1,5 +1,5 @@
 import React from "react";
-import webPic from "../assets/web-pic.png";
+import webPic from "../assets/little-lion-03.png";
 import "../App.css"; // You'll need to create this CSS file
 
 export default function Hero() {
@@ -11,18 +11,16 @@ export default function Hero() {
           backgroundImage: `url(${webPic})`,
           backgroundPosition: "bottom left",
           backgroundRepeat: "no-repeat",
-          backgroundSize: "50%",
+          backgroundSize: "40%",
           backgroundAttachment: "fixed",
         }}
       ></div>
-      <div className="container pr-5 text-left text-white w-1/2">
-        <h1 className="text-4xl md:text-5xl font-extrabold mb-6 ">Transcendent</h1>
-        <h2 className="global-accent-text text-start pr-25 text-4xl md:text-3xl font-extrabold mb-6">
+      <div className="container pr-5 text-center md:text-left text-white w-full md:w-1/2">
+        <h1 className="text-4xl md:text-5xl font-extrabold mb-6 ">Little Lion</h1>
+        <h2 className="global-accent-text text-center md:text-start md:pr-25 text-4xl md:text-3xl font-extrabold mb-6">
           Web Designs
         </h2>
-        <p className="text-xl md:text-2xl mb-8 max-w-2xl">
-          Providing a personalised and unique approach to web design and development.
-        </p>
+        <p className="text-xl md:text-2xl mb-8 max-w-2xl">Perfect Pixels, Perfectly Yours</p>
       </div>
     </section>
   );
