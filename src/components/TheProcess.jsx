@@ -2,12 +2,12 @@ import React from "react";
 
 import "../App.css"; // You'll need to create this CSS file
 
-import consult from "../assets/icons/consult.png";
-import planning from "../assets/icons/planning.png";
-import develop from "../assets/icons/develop.png";
-import test from "../assets/icons/test.png";
-import launch from "../assets/icons/launch.png";
-import support from "../assets/icons/support.png";
+import consult from "../assets/icons/helpdesk.gif";
+import planning from "../assets/icons/strategy.gif";
+import develop from "../assets/icons/software.gif";
+import test from "../assets/icons/test.gif";
+import launch from "../assets/icons/rocket.gif";
+import support from "../assets/icons/support.gif";
 
 export default function TheProcess() {
   return (
