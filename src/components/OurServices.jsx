@@ -29,9 +29,9 @@ export default function OurServices() {
       {/* Content Layer */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <h1 className="text-5xl md:text-6xl font-extrabold mb-6">Our Services</h1>
-        <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
+        {/* <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
           Choose from our range of packages tailored to meet your needs.
-        </p>
+        </p> */}
       </div>
       <div className="mb-12">
         {" "}
